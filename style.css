@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+}
+
+nav {
+    width: 100%;
+}
+
+.top_nav {
+    display: flex;
+    background-color: ghostwhite;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_nav .icon_top_nav {
+    display: flex;
+    margin: 10px;
+}
+
+.top_nav .icon_top_nav i {
+    margin: 5px;
+}
+
+.top_nav .country {
+    margin: 5px;
+}
+
+.top_nav .country ul {
+    display: flex;
+    margin: 10px;
+}
+
+.top_nav .country ul li {
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.top_nav .buttom_top_nav {
+    margin: 10px;
+}
+.top_nav .buttom_top_nav button{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.min_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.min_nav .date_time {
+    margin: 10px;
+}
+
+.min_nav h1 {
+    margin: 10px;
+}
+
+.min_nav .stock_price {
+    margin: 10px;
+    display: flex;
+}
+
+.min_nav .stock_price i {
+    margin: 2px;
+}
+
+.buttom_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom_nav ul {
+    display: flex;
+}
+
+.buttom_nav ul li {
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.page {
+    margin: 2px;
+}
+
+.main_new {
+    margin-right: 2px;
+}
+
+.sub_new {
+    margin-left: 2px;
+}
+
+.Warnew {
+    margin: 2px;
+}
+
+.Warnew hr {
+    margin: 1rem;
+}
+
+.Warnew .Warnew_content {
+    display: flex;
+}
+
+.Warnew {
+    margin: 2px;
+}
+
+.content_new {
+    margin: 2px;
+}
+
+.content_new p {
+    margin: 5px;
+    text-align: left;
+}
+
+.content_new h2 {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.content_new span {
+    margin: 5px;
+}
+
+.content_new h2:hover {
+    color: gray;
+}
+
+.Warnew .content_new p {
+    margin: 5px;
+}
+
+.Warnew .content_new h2 {
+    margin: 5px;
+    padding: 2px;
+}
+
+.Warnew .Warnew_content img {
+    margin: 1cap;
+    height: 450px;
+    width: 450px;
+}
+
+.Politicalnew {
+    margin: 2px;
+}
+
+.Politicalnew hr {
+    margin: 1rem;
+}
+
+.tage_new ul {
+    display: flex;
+}
+
+.tage_new ul li {
+    list-style: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.tage_new ul li:hover {
+    color: gray;
+}
+
+.footernew {
+    text-align: left;
+    display: flex;
+}
+
+.Trumpnew hr {
+    margin: 1rem;
+}
+
+.Trumpnew_content {
+    display: flex;
+}
+
+.Trumpnew_content img {
+    margin: 1cap;
+    width: 450px;
+    height: 450px;
+
+}
+
+.Finlandnew hr {
+    margin: 1rem;
+}
+
+.Finlandnew_content {
+    display: flex;
+}
+
+.Finlandnew_content img {
+    margin: 1rcap;
+    width: 450px;
+    height: 450px;
+}
+
+.Israel-Hamasnew hr {
+    margin: 1rem;
+}
+
+.Israel-Hamasnew_content {
+    display: flex;
+}
+
+.Israel-Hamasnew img {
+    margin: 1rcap;
+    height: 450px;
+    width: 450px;
+}
+
+.Democracypartynew hr {
+    margin: 1rem;
+}
+
+.Democracypartynew_content {
+    display: flex;
+}
+
+.Democracypartynew img {
+    margin: 1rcap;
+    height: 450px;
+    width: 450px;
+}
+
+.Outbreak hr {
+    margin: 1rem;
+}
+
+.Outbreak_content {
+    display: flex;
+}
+
+.Outbreak_content img {
+    margin: 1cap;
+    height: 450px;
+    width: 450px;
+}
+
+.Tiktoknew hr {
+    margin: 1cap;
+}
+
+.Tiktoknew_content {
+    display: flex;
+}
+
+.Tiktoknew_content img {
+    margin: 1cap;
+    height: 450px;
+    width: 450px;
+}
+
+.Jonstewartnew hr {
+    margin: 1rem;
+}
+
+.Jonstewartnew_content {
+    display: flex;
+}
+
+.Jonstewartnew_content img {
+    margin: 1cap;
+    height: 450px;
+    width: 450px;
+}
+
+.subnew {
+    margin: 10px;
+}
+
+.main_subnew img {
+    margin-left: 100px;
+}
+
+.slicecontent_new hr {
+    margin: 1rem;
+}
+
+.slice {
+    display: flex;
+}
+
+.slicecontent_new img {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.button_slice {
+    right: 100px;
+    margin: 10px;
+    justify-content: right;
+    display: flex;
+}
+
+.button_slice i {
+    margin: 10px;
+    cursor: pointer;
+     font-size: 100px;
+}
+
+.opinion_container {
+    margin: 5px;
+}
+
+.opinion_container strong {
+    margin-left: 15px;
+}
+
+.opinion_subcontainer {
+    margin: 10px;
+}
+
+.opinion_content {
+    justify-content: space-between;
+    display: flex;
+}
+
+.opinion_content img {
+    margin: 10px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.vertical {
+    border-left: 1px solid gray;
+    height: 200px;
+    margin: 10px;
+}
+
+.missed {
+    margin: 5px;
+}
+
+.missed_new {
+    margin: 10px;
+}
+
+.missed_new strong {
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
